@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CoreMind</title>
+    <link rel="icon" href="img/Coremind-logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+<div id="Container">
+
+
+    <script src="script.js"></script>
+    <!-- NAVBAR -->
+    <header>    
+        <img onclick="scrollupTologo()" id="Logo" src="img/Coremind-logo.png" alt="">
+
+        <nav>
+            <ul>
+                <a id="current-site" href="index.html"><li>Home</li></a> 
+                <a href="Chat.html"><li>2 Seite</li></a> 
+                <a href="#"><li>Kontakt</li></a> 
+                <a id="über-uns" href="#"><li>Über uns</li></a> 
+                <div id="Search-Container">
+                    <input id="search-input" type="search" required>
+                    <i id="search" class="bi bi-search"></i>
+                </div>
+            </ul> 
+        </nav>
+    </header>
+    <!-- WILLKOMEN-TEXT -->
+    <section id="welcome-text">
+        <img src="img/KI-Header-image.jpg" alt="">
+        <h1>Willkommen zu CoreMind</h1>
+        <p>Erleben Sie die perfekte Symbiose aus Innovation, Intelligenz und Technologie. CoreMind steht für smarte Lösungen, die Ihr Leben einfacher und effizienter machen. Lassen Sie uns gemeinsam die nächste Stufe erreichen!</p>
+    </section>
+
+    <!-- DREI MODELLE -->
+    <section id="Introduction">
+        <h1>CoreMind KI-Suite – Intelligenz für jede Herausforderung</h1>
+    </section> 
+
+    <section id="Ai-modelle">
+        <div onclick="scrollToNext()" id="CoreMind-Nexus-header">
+            <h1 >CoreMind Nexus</h1>
+            <img src="img/nexus.jpg" alt="">
+        </div>
+        <div onclick="scrollToNext2()" id="CoreMind-Sentience-header">
+            <h1>CoreMind Sentience</h1>
+            <img src="img/Sentience.jpg" alt="">
+        </div>
+        <div onclick="scrollToNext3()" id="CoreMind-Aegis-header">
+            <h1>CoreMind-Aegis</h1>
+            <img src="img/Aegis.png" alt="">
+        </div>
+    </section>
+
+    <div id="Für-übergang">
+        <h1>Hallo</h1>
+    </div>
+
+    <Section id="CoreMind-Nexus">
+        <h1>CoreMind-Nexus – Der adaptive KI-Assistent</h1>
+        <p id="quote">„CoreMind Nexus versteht, lernt und unterstützt Sie – ein intelligenter Assistent, der mitdenkt und sich an Ihre Bedürfnisse anpasst.“</p>
+        <div id="info">
+            <img src="img/nexus-img.jpg" alt="">
+            <p>CoreMind Nexus ist weit mehr als ein herkömmlicher virtueller Assistent – er ist ein intelligenter Begleiter, der sich <strong> ständig weiterentwickelt und an individuelle Bedürfnisse anpasst.</strong> Während andere KI-Assistenten oft auf vordefinierte Befehle angewiesen sind, lernt Nexus durch Interaktion mit dem Nutzer und optimiert seine Antworten und Vorschläge in Echtzeit. Dank einer nahtlosen <strong> Integration mit Apps, Geräten und Cloud-Diensten </strong> agiert Nexus wie ein zentraler KI-Hub, der alle digitalen Prozesse effizient koordiniert. Sein einzigartiges <strong> Low-Latency-Verarbeitungssystem </strong> sorgt zudem für blitzschnelle Reaktionen, die klassische Sprachassistenten wie Siri oder Alexa in den Schatten stellen.
+                <br>
+                <br>
+                <button onclick="scrollToNext2()">Nächtes Modell <i class="bi bi-arrow-down"></i></button>
+            </p>
+        </div>
+    </Section>
+
+    <div id="Für-übergang2">
+        <h1>Hallo</h1>
+    </div>
+    
+    <Section id="CoreMind-Sentience">
+        <h1>CoreMind Sentience – Die kreative und analytische Super-KI</h1>
+        <p id="quote">„Von brillanten Ideen bis hin zu tiefgehenden Analysen – CoreMind Sentience kombiniert Kreativität mit kluger Datenverarbeitung.“</p>
+        <div id="Sentience-info">
+            <p>CoreMind Sentience kombiniert als eine der wenigen KIs auf dem Markt <strong> kreatives Denken mit datenbasierter Analyse.</strong> Während bestehende Modelle entweder kreative Inhalte generieren oder analytische Berechnungen durchführen, vereint Sentience beides auf einem neuen Level. Es kann nicht nur überzeugende Texte, Grafiken und Musik erschaffen, sondern auch tiefgehende Musteranalysen durchführen, um datenbasierte Strategien zu entwickeln. Was Sentience einzigartig macht, ist die Fähigkeit, kontextbasiert zu lernen – es merkt sich den Stil eines Nutzers und optimiert die Ergebnisse entsprechend. So entstehen personalisierte Inhalte mit außergewöhnlicher Präzision, während andere kreative KI-Systeme oft generische Ergebnisse liefern. Darüber hinaus kann Sentience komplexe Daten nicht nur auswerten, sondern auch verständlich interpretieren und konkrete Handlungsempfehlungen geben – eine Fähigkeit, die herkömmlichen Datenanalyse-KIs oft fehlt.
+                <br>
+                <button onclick="scrollToNext3()">Nächtes Modell <i class="bi bi-arrow-down"></i></button>
+            </p>
+            
+            <img src="img/Sentience-img.jpeg" alt="">
+            <br>
+        </div>
+    </Section>
+
+    <div id="Für-übergang3">
+        <h1>Hallo</h1>
+    </div>
+
+    <Section id="CoreMind-Aegis">
+        <h1>CoreMind Aegis – Die unüberwindbare Schutz-KI</h1>
+        <p id="quote"> „CoreMind Aegis wacht über Ihre digitalen Systeme – erkennt Bedrohungen in Echtzeit und schützt Sie mit modernster KI-Technologie.“</p>
+        <div id="Aegis-info">
+            <img src="img/Aegis-img.jpg" alt="">
+            <p>Cyberbedrohungen entwickeln sich täglich weiter – CoreMind Aegis ist die Antwort auf diese Herausforderung. Im Gegensatz zu traditionellen Sicherheitslösungen, die auf statischen Regeln basieren, nutzt Aegis selbstlernende Algorithmen, um sich dynamisch an neue Bedrohungen anzupassen. Während klassische Firewalls erst dann reagieren, wenn ein Angriff erkannt wird, setzt Aegis auf Predictive Analysis, um Gefahren schon im Vorfeld zu identifizieren und zu blockieren. Mit seiner KI-gestützten Anomalie-Erkennung erkennt Aegis verdächtige Aktivitäten sofort und verhindert Datenlecks, bevor sie entstehen. Diese proaktive Sicherheitsarchitektur macht es effektiver als jede herkömmliche Cybersecurity-Lösung und stellt sicher, dass Systeme jederzeit gegen die neuesten Angriffsmethoden geschützt sind.
+                <br> 
+                <button onclick="scrollToNext4()">Zum Ki-Vergleich <i class="bi bi-arrow-down"></i></button>
+            </p>  
+        </div>
+    </Section>
+    <div id="Für-übergang4">
+        <h1>Hallo</h1>
+    </div>
+
+      <div id="chart">
+        <h1>KI-Vergleich: Stärken in verschiedenen Bereichen</h1>
+        <canvas id="myChart"></canvas>
+      </div>
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+      const data = {
+        labels: [
+            'Sprachverständnis',
+            'Kreativität',
+            'Problemlösung',
+            'Allgemeinwissen',
+            'Code-Generierung',
+            'Effizienz',
+            'Anpassungsfähigkeit'
+        ],
+        datasets: [{
+            label: 'Chatgpt-4',
+            data: [95, 90, 92, 88, 94, 85, 90],
+            fill: true,
+            backgroundColor: 'rgba(116, 170, 156, 0.4)',
+            borderColor: 'rgb(116, 170, 156)',
+            pointBackgroundColor: 'rgb(116, 170, 156)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(255, 99, 132)'
+        }, {
+            label: 'Claude',
+            data: [90, 88, 85, 87, 80, 88, 87],
+            fill: true,
+            backgroundColor: 'rgba(244,194,142, 0.4)',
+            borderColor: 'rgb(244,194,142)',
+            pointBackgroundColor: 'rgb(244,194,142)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(244,194,142)'
+        }, {
+            label: 'Coremind',
+            data: [90, 95, 90, 85, 75, 92, 95],
+            fill: true,
+            backgroundColor: 'rgba(187, 59, 234, 0.4)',
+            borderColor: 'rgb(187, 59, 234)',
+            pointBackgroundColor: 'rgb(187, 59, 234)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(187, 59, 234)'
+        }]
+    };
+
+    const config = {
+        type: 'radar',
+        data: data,
+        options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: 'white' // Legenden-Texte weiß
+                    }
+                }
+            },
+            scales: {
+                r: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.5)' // Rasterlinien heller
+                    },
+                    angleLines: {
+                        color: 'rgba(255, 255, 255, 0.7)' // Achsenlinien heller
+                    },
+                    ticks: {
+                        color: 'white' // Werte auf der Achse weiß
+                    },
+                    pointLabels: {
+                        color: 'white' // Labels auf der Achse weiß
+                    }
+                }
+            },
+            elements: {
+                line: {
+                    borderWidth: 3
+                }
+            }
+        }
+    };
+
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+      </script>
+
+
+
+
+    <div id="Für-übergang4">
+        <h1>Hallo</h1>
+    </div>
+        <a href="Chat.html">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div  class="carousel-item active">
+                    <img src="img/Aegis-img.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Sentience.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Sentience-img.jpeg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+                <h1>Teste die Zukunft der KI!</h1>
+                <p>Klicke auf das Bild, um exklusiven Zugang zum Beta-Chatbot von CoreMind zu erhalten und die nächste Generation der künstlichen Intelligenz auszuprobieren!</p>
+            </div>
+        </a>
+    
+        
+    <footer>
+        <section>
+            <h2>Über uns</h2>
+            <ul>
+                <a href="#"><li>Wer sind wir?</li></a>  
+                <a href="#"><li>Studienangebote</li></a>  
+                <a href="#"><li>Stellenangebote</li></a>  
+                <a href="#"><li>Tests & Ratgeber</li></a>  
+                <a href="#"><li>Presse</li></a>  
+            </ul>
+        </section>
+        <section>
+            <h2> Hilfe & Service</h2>
+            <ul>
+                <a href="#"><li>Back Market Garantie</li></a>  
+                <a href="#"><li>Bezahlung</li></a>  
+                <a href="#"><li>Hilfe und Support</li></a>  
+                <a href="#"><li>Lieferung & Versand</li></a>  
+                <a href="#"><li>Lieferung & Versand</li></a>  
+            </ul>
+        </section>
+        <section>
+            <h2>Über uns</h2>
+            <ul>
+                <a href="#"><li>Nutzungsbedingungen</li></a>  
+                <a href="#"><li>Allgemeine Geschäftsbedingungen </li></a>  
+                <a href="#"><li>Datenschutz</li></a>  
+                <a href="#"><li>cookies</li></a>  
+                <a href="#"><li>Impressum</li></a>  
+            </ul>
+        </section>
+        <section>
+            <div id="icons">
+                <h2>Folgen Sie uns</h2>
+            <svg id="X" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+              
+
+              <svg id="youtube" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+              </svg>
+              
+
+              <svg id="twitch" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z"/>
+                <path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z"/>
+              </svg>
+
+            </div>
+            
+
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
